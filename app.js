@@ -4,9 +4,9 @@ const app = express()
 const port = 3000
 
 // static Files
-app.use(express.static('public'))
+app.use(express.static('express-node4'))
 app.use('/html',express.static(__dirname + '/html'))
-app.use('/jpg',express.static(__dirname + '/jpg'))
+app.use('/img',express.static(__dirname + '/img'))
 
 app.get('', (req,res) => {
     res.sendFile(__dirname + '/index.html')
