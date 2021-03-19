@@ -1,0 +1,128 @@
+<!--
+ Author: Christian Escobarete
+ Class:  Software Engineering
+ Project: Lab 2 / Course Syllabus
+ Description: This is the first version of my Course Syllabus application.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Syllabus</title>
+    </head>
+    <body>
+        <!--Allows css-->
+        <!--creates grid and specifications with grid item specifications-->
+        <style>
+            body {
+                border: 5px solid black;
+                margin: auto;
+                padding: 100px;
+            }
+
+            h2 {
+                text-align: right;
+                font-variant: small-caps;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                background-color:rgb(10, 10, 10);
+                padding: 5px;
+            }
+
+            .grid-item {
+                background-color:rgb(255, 255, 255);
+                border: 5px solid rgba(rgb(31, 26, 26), rgb(14, 15, 14), rgb(18, 18, 22), alpha);
+                padding: 20px;
+                font-size:30px;
+                text-align: center;
+            }
+            
+        </style>
+        <!--Uses image in web app-->
+        <img src="lewis.jpg" alt="lewis">
+        <!--Header-->
+        <h2>Software Engineering – 44000<br>Syllabus: Fall Semester 2020</h2>
+        <!--Paragraph-->
+        <p><b>I. Instructor Information Instructor’s name: Eric Pogue</b><br><br>
+             Lewis office location: AS-132-A<br>
+             Office hours: MWF 1-2pm CT by appointment<br>
+             Appointments: Appointments can be requested via email<br>
+             Lewis Phone Number: 563-209-7280 (mobile)<br>
+             Lewis email address: <a href=mailto:epogue@lewisu.edu>epogue@lewisu.edu</a><br></p>
+        <p2><b>II. Course Information</b><br><br>
+            Course: Software Engineering (CPSC-44000-LT1)<br>
+            Course Credit Hours: 3<br><br>
+            Course description:<br>
+            Methods, strategies, and tools for implementing software systems, particularly as part
+            of a development team. Topics include the software development life cycle, Unified
+            Modeling Language, software testing techniques, software security, open-source
+            development, requirements gathering and documentation, maintenance, and basic
+            software project management.<br><br>
+            Prerequisites: CPSC-24500 Object-Oriented Programming<br><br>
+            Course meeting times: MWF 12-12:50am CT from August 31 through December 12th<br><br>
+            Meeting location: AS 104A<br><br>
+            Course final: Monday, December 14th from 1:30 to 3:30pm CT<br></p2>
+        <p3><br><b>III. University Mission Statement</b><br>
+            <br>Lewis University, guided by its Catholic and Lasallian heritage, provides to a diverse
+            student population programs for a liberal and professional education grounded in the
+            interaction of knowledge and fidelity in the search for truth.<br><br>
+            Lewis promotes the development of the complete person through the pursuit of wisdom
+            and justice. Fundamental to its Mission is a spirit of association, which fosters
+            community in all teaching, learning and service.<br><br>
+            How this course connects to the University Mission:
+            This course will allow us to extend our knowledge in software development, provide us
+            the foundation for lifelong learning in this domain, and provide us the opportunity to
+            assist each other on our learning journey.<br></p3>
+            <!--Specifies grid items within grid-->
+        <p4><b><br>VI. Course Schedule<br><br></b><div class="grid-container">
+                <div class="grid-item">1</div>
+                <div class="grid-item">Introduction to SaaS and Agile Development<br>
+                The Architecture of SaaS Applications<br> 
+                Getting Started with Git & GitHub<br>
+                Cloud Computing with Microsoft Azure</div>
+                <div class="grid-item">Chapter 1<br>Chapter 2<br>A.5 and A.6</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">Ruby Overview<br>
+                Getting Started with JavaScript<br>
+                Getting Started with Bootstrap<br>
+                Getting Started with Node.js</div>
+                <div class="grid-item">Chapter 3 and Chapter 4<br>
+                    Chapter 6</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">Behavior Driven Development<br>
+                    Plan and Document Requirements<br>
+                    Getting Started with Microsoft Azure and Node.js</div>
+                <div class="grid-item">Chapter 7</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">Testing and Test-Driven Development<br>
+                    HTML, CSS, JavaScript, and Bootstrap<br>
+                    Azure, Node.js, JavaScript, and Express</div>
+                <div class="grid-item">Chapter 8</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">Maintenance, Metrics, and Metrics<br>
+                    Agile Requirements & Saas Environment<br>
+                    Class Project – Sprint 1:</div>
+                <div class="grid-item">Chapter 9</div>
+                <div class="grid-item">6</div>
+                <div class="grid-item">Project Management & Scaled Agile<br>
+                    Serverless Computing<br>
+                    Class Project – Sprint 2</div>
+                <div class="grid-item">Chapter 10</div>
+                <div class="grid-item">7</div>
+                <div class="grid-item">Design Patterns<br>
+                    Software Architecture<br>
+                    Class Project – Sprint 3</div>
+                <div class="grid-item">Chapter 11</div>
+                <div class="grid-item">8</div>
+                <div class="grid-item">Performance, Releases, Reliability, and Security<br>
+                    More Software Architecture<br>
+                    Class Project – Sprint 4</div>
+                <div class="grid-item">Chaptyer 12</div>
+            </div></p4>
+            <a href="https://regexp-cae2-1.azurewebsites.net/regexp.html">RegExp</a>
+    </body>
+</html>
+
